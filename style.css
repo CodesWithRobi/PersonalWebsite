@@ -1,6 +1,6 @@
-p {font-size: larger;}
+p {font-size: larger;}/*element {style}*/
 body {background-color: rgb(22, 22, 22);}
-.link:hover {background-color: rgb(44, 44, 44);padding: 13px;text-decoration: none; border-radius: 30px;}
+.link:hover {background-color: rgb(44, 44, 44); border-radius: 30px;}/*.class_name:selector, here hover selector apply while mouse is hovering*/
+.link:focus {filter: invert();border-radius: 30px;}/*focus is helpful to focus ie only applied while userinput on the element also element is back to default if another user input is given*/
 .link {color: rgb(255, 255, 255);background-color: rgb(22, 22, 22);padding: 13px;text-decoration: none;font-size: 140%;}
 .github:hover {filter:opacity(30%);}
-/* a:visited {background-color: rgb(131, 131, 131); color: rgb(155, 155, 155);} */
