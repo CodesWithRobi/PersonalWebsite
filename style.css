@@ -12,7 +12,8 @@ body {background-color: rgb(22, 22, 22);}
 
 .link {color: rgb(255, 255, 255);
     background-color: rgb(22, 22, 22);
-    padding: 13px;
+    display: inline-block;/* makes an element to become a inline block container so making it not overlap with other links */
+    padding: 13px;/* space between border and text */
     text-decoration: none;
     font-size: 140%;
     border-radius: 30px;
