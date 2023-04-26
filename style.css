@@ -19,3 +19,12 @@ body {background-color: rgb(22, 22, 22);}
     border-radius: 30px;
 }
 .github:hover {filter:opacity(30%);}
+
+details > summary {
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    background-color: rgb(207, 20, 20);
+    padding: 4px;
+    border-radius: 20px;
+    width: fit-content;
+}
