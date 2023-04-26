@@ -3,7 +3,6 @@ body {background-color: rgb(22, 22, 22);}
 
 .link:hover {
     background-color: rgb(44, 44, 44);
-    border-radius: 30px;
 }/*.class_name:selector, here hover selector apply while mouse is hovering*/
 
 .link:focus {
@@ -16,5 +15,6 @@ body {background-color: rgb(22, 22, 22);}
     padding: 13px;
     text-decoration: none;
     font-size: 140%;
+    border-radius: 30px;
 }
 .github:hover {filter:opacity(30%);}
