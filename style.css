@@ -21,10 +21,13 @@ body {background-color: rgb(22, 22, 22);}
 .github:hover {filter:opacity(30%);}
 
 details > summary {
-    cursor: pointer;
-    color:rgb(255, 255, 255);
-    background-color: rgb(207, 20, 20);
+    cursor: cell;
+    border: 1px solid black;
+    color:rgb(0, 0, 0);
+    background-color: rgb(177, 177, 177);
     padding: 4px;
     border-radius: 20px;
     width: fit-content;
 }
+
+details > summary:hover{background-color: white;}
