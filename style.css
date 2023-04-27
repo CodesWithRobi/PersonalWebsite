@@ -18,9 +18,16 @@ body {background-color: rgb(22, 22, 22);}
     font-size: 140%;
     border-radius: 30px;
 }
+
+.github {
+    height: 30px;
+    width: auto;
+    float: right;
+}
+
 .github:hover {filter:opacity(30%);}
 
-details > summary {
+details > summary { /*> allows to go inside <details> and give acess to <summary>*/
     cursor: cell;
     border: 1px solid black;
     color:rgb(0, 0, 0);
@@ -31,3 +38,11 @@ details > summary {
 }
 
 details > summary:hover{background-color: white;}
+
+section > h1 {
+    
+    color:crimson;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:300%;
+}
